@@ -40,9 +40,14 @@ $ docker compose up
 
 ## Postman Results
 
-Check out a few resources that may come in handy when working with NestJS:
+- Upload document, extract content and generate summary or key insights
+  - Under Body, change Text to File and select a PDF to upload.
+  - Request 
+  <img width="960" alt="Screenshot 2025-01-23 122853" src="https://github.com/user-attachments/assets/16056478-c8a0-4f3c-a4f6-afdc617e1909" />
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
+  - Response
+  - <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/d08b53a7-2e39-4492-92b4-dbe31123e711" />
+
 - For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
 - To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
 - Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
