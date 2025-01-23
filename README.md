@@ -30,11 +30,12 @@ $ docker compose up
     <img width="960" alt="Screenshot 2025-01-23 122853" src="https://github.com/user-attachments/assets/16056478-c8a0-4f3c-a4f6-afdc617e1909" />
 
 
-    The API endpoint returns the generated insight, id and a successful message.
+    If successful, the API endpoint returns the created document.
     
-    <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/d08b53a7-2e39-4492-92b4-dbe31123e711" />
+    <img width="642" alt="Screenshot 2025-01-23 170235" src="https://github.com/user-attachments/assets/d6d28844-c936-48eb-afe8-7454d5b623dc" />
 
-    The extracted content from the PDF and insights are saved in the database hosted on Supabase.
+
+    The documents metadata and the extracted insights are saved in the database hosted on Supabase.
     
     <img width="960" alt="Screenshot 2025-01-23 123348" src="https://github.com/user-attachments/assets/950978b7-36db-4f60-99b2-a214623374f4" />
 
