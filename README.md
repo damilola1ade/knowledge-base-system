@@ -58,7 +58,9 @@ $ docker compose up
 - Get Documents metadata
   -   The API endpoint returns a metadata object containing the filename, size and mimetype of all uploaded documents.
     
-  <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/f09b270b-f39d-445b-bf7f-1dfae0b47efd" />
+
+  <img width="960" alt="Screenshot 2025-01-23 123419" src="https://github.com/user-attachments/assets/b6dde874-ab10-4861-a4d6-133b146fb737" />
+
 
 - Get unique document
   -   The API endpoint gets a document by ID and returns everything about the document. These include the extracted content, metadata, the generated insights and the           datetime the document was uploaded.
