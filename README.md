@@ -43,29 +43,9 @@ $ docker compose up
   -   We can provide a prompt to query the knowledge base system about an uploaded document. The AI provides intelligent responses based on the initial generated insights.
     I asked: 'How many years experience does have Dami have?' and it responded with '5 years'.
 
+
   <img width="960" alt="Screenshot 2025-01-23 170359" src="https://github.com/user-attachments/assets/8e6be62e-de23-49d2-b91d-adf2cf5975a7" />
 
 
-
-- Get unique document
-  -   The API endpoint gets a document by ID and returns everything about the document. These include the extracted content, metadata, the generated insights and the           datetime the document was uploaded.
-    
-<img width="960" alt="Screenshot 2025-01-23 123607" src="https://github.com/user-attachments/assets/f1e751d1-25ef-44a9-8b49-54f7aaefaf09" />
-
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
