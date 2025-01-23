@@ -34,7 +34,7 @@ I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the
 
     The documents metadata and the extracted insights are saved in the database hosted on Supabase.
     
-    <img width="960" alt="Screenshot 2025-01-23 123348" src="https://github.com/user-attachments/assets/950978b7-36db-4f60-99b2-a214623374f4" />
+    <img width="960" alt="Screenshot 2025-01-23 184349" src="https://github.com/user-attachments/assets/2d8da1b9-4a7a-4af9-8f16-8e7ca55f0824" />
 
 - Query Knowledge Base System
   -   We can provide a prompt to query the knowledge base system about an uploaded document. The AI provides intelligent responses based on the initial generated insights.
