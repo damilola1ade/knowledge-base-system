@@ -10,12 +10,7 @@
 Built with NestJS, Prisma, PostgreSQL, Supabase and Google Gemini LLM
 
 ## Project setup
-
-```bash
-$ npm install
-```
-
-## Dockerize and run the project
+Clone the repository and run:
 
 ```bash
 $ docker compose up
