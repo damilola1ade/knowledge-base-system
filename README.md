@@ -38,10 +38,10 @@ I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the
 
 - Query Knowledge Base System
   -   We can provide a prompt to query the knowledge base system about an uploaded document. The AI provides intelligent responses based on the initial generated insights.
-    I asked: 'How many years experience does have Dami have?' and it responded with '5 years'.
+    I asked: 'Which technology is Dami strong in?' and it responded with 'Based on the provided resume, Dami is strong in TypeScript, React, React Native, and Express.js.'.
 
 
-  <img width="960" alt="Screenshot 2025-01-23 170359" src="https://github.com/user-attachments/assets/8e6be62e-de23-49d2-b91d-adf2cf5975a7" />
+  <img width="960" alt="Screenshot 2025-01-23 180213" src="https://github.com/user-attachments/assets/c6e90c4d-5d41-4bf6-8710-d66819745ea8" />
 
 
 ## Architecture
