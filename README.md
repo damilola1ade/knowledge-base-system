@@ -16,7 +16,9 @@ Clone the repository and run:
 $ docker compose up
 ```
 
-## Postman Results
+## API Documentation
+
+I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the endpoints. If you didn't get please let me know.
 
 - Upload document, extract content and generate summary or key insights
   
