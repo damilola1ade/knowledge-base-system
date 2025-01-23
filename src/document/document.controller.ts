@@ -17,8 +17,8 @@ export class DocumentController {
 
   @Post('upload')
   @UseInterceptors(FileInterceptor('file'))
-  async uploadAndSummarizeDocument(@UploadedFile() file: Express.Multer.File) {
-    return this.documentService.uploadAndSummarizeDocument(file);
+  async uploadDocument(@UploadedFile() file: Express.Multer.File) {
+    return this.documentService.uploadDocument(file);
   }
 
   @Patch('extend-insights/:documentId')
@@ -29,13 +29,13 @@ export class DocumentController {
     return this.documentService.extendInsights(documentId, prompt);
   }
 
-  @Get('get-metadata')
-  async getMetadata() {
-    return this.documentService.getMetadata();
+  @Get('get-documents')
+  async getAllDocuments() {
+    return this.documentService.getAllDocuments();
   }
 
-  @Get('get-unique-chat/:documentId')
-  async getUniqueChat(@Param('documentId') documentId: string) {
-    return this.documentService.getUniqueChat(documentId);
+  @Get('get-document/:documentId')
+  async getDocument(@Param('documentId') documentId: string) {
+    return this.documentService.getDocument(documentId);
   }
 }

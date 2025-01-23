@@ -9,8 +9,7 @@ datasource db {
 }
 
 model Document {
-  id         String      @id @unique @default(cuid())
-  content    String   
+  id         String      @id @unique @default(cuid()) 
   metadata   Json?
   insights   Json?  
   uploadedAt DateTime @default(now())
