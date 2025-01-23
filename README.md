@@ -42,11 +42,11 @@ $ docker compose up
 
 - Upload document, extract content and generate summary or key insights
   - Under Body, change Text to File and select a PDF to upload.
-  - Request 
-  <img width="960" alt="Screenshot 2025-01-23 122853" src="https://github.com/user-attachments/assets/16056478-c8a0-4f3c-a4f6-afdc617e1909" />
+    Request 
+    <img width="960" alt="Screenshot 2025-01-23 122853" src="https://github.com/user-attachments/assets/16056478-c8a0-4f3c-a4f6-afdc617e1909" />
 
-  - Response
-  - <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/d08b53a7-2e39-4492-92b4-dbe31123e711" />
+    Response
+    <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/d08b53a7-2e39-4492-92b4-dbe31123e711" />
 
 - For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
 - To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
