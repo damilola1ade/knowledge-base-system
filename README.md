@@ -47,7 +47,7 @@ $ docker compose up
     <img width="960" alt="Screenshot 2025-01-23 122853" src="https://github.com/user-attachments/assets/16056478-c8a0-4f3c-a4f6-afdc617e1909" />
 
 
-    The API returns the generated insight, id and a successful message.
+    The API endpoint returns the generated insight, id and a successful message.
     
     <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/d08b53a7-2e39-4492-92b4-dbe31123e711" />
 
@@ -55,13 +55,16 @@ $ docker compose up
     
     <img width="960" alt="Screenshot 2025-01-23 123348" src="https://github.com/user-attachments/assets/950978b7-36db-4f60-99b2-a214623374f4" />
 
-- API to get all documents metadata
-  -   The API returns the a metadata object containing the document's filename, size and mimetype
+- Get Documents metadata
+  -   The API endpoint returns a metadata object containing the filename, size and mimetype of all uploaded documents.
     
   <img width="959" alt="Screenshot 2025-01-23 123252" src="https://github.com/user-attachments/assets/f09b270b-f39d-445b-bf7f-1dfae0b47efd" />
 
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
+- Get unique document
+  -   The API endpoint gets a document by ID and returns everything about the document. These include the extracted content, metadata, the generated insights and the           datetime the document was uploaded.
+    
+<img width="960" alt="Screenshot 2025-01-23 123607" src="https://github.com/user-attachments/assets/f1e751d1-25ef-44a9-8b49-54f7aaefaf09" />
+
 - Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
