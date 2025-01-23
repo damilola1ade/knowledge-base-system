@@ -39,11 +39,12 @@ $ docker compose up
     
     <img width="960" alt="Screenshot 2025-01-23 123348" src="https://github.com/user-attachments/assets/950978b7-36db-4f60-99b2-a214623374f4" />
 
-- Get Documents metadata
-  -   The API endpoint returns a metadata object containing the filename, size and mimetype of all uploaded documents.
-    
+- Query Knowledge Base System
+  -   We can provide a prompt to query the knowledge base system about an uploaded document. The AI provides intelligent responses based on the initial generated insights.
+    I asked: 'How many years experience does have Dami have?' and it responded with '5 years'.
 
-  <img width="960" alt="Screenshot 2025-01-23 123419" src="https://github.com/user-attachments/assets/b6dde874-ab10-4861-a4d6-133b146fb737" />
+  <img width="960" alt="Screenshot 2025-01-23 170359" src="https://github.com/user-attachments/assets/8e6be62e-de23-49d2-b91d-adf2cf5975a7" />
+
 
 
 - Get unique document
