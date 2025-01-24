@@ -43,6 +43,17 @@ I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the
 
   <img width="960" alt="Screenshot 2025-01-23 180213" src="https://github.com/user-attachments/assets/c6e90c4d-5d41-4bf6-8710-d66819745ea8" />
 
+## Database schema
+I used PostgreSQL and Prisma as the ORM. The database schema is located in prisma/schema.prisma. I hosted the database on Supabase
+
+```bash
+ model Document {
+  id: string
+  metadata: string[]
+  insights: string[]
+  uploadedAt: Date
+}
+```
 
 ## Architecture
 I used the Monolithic architecture approach because of the simplicity of the project. Using Microservices would be overkill for a project like this. The features are tightly coupled, so splitting them into microservices adds unnecessary overhead. Also it is easier for another developer to set up, understand, and continue development. In contrast, microservices require additional effort to set up independent services, inter-service communication, and orchestration.
