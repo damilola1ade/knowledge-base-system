@@ -16,6 +16,14 @@ Clone the repository and run:
 $ docker compose up
 ```
 
+## Project Structure
+
+├── prisma                  # Contains the database schema and migration files
+├── src                     # Houses the document, google gemini and database init modules
+│   ├── database            # Initialize the database and Prisma client when the project starts
+│   ├── document            # Uploads the document, extract insights, queries the knowledge base system, get all documents and get single document by ID
+│   └── gemini              # Initializes the Google Gemini LLM
+
 ## API Documentation
 
 I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the endpoints. If you didn't it get please let me know.
