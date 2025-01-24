@@ -19,6 +19,7 @@ $ docker compose up
 ## Project Structure
 
 ```bash
+.
 ├── prisma                  # Contains the database schema and migration files
 ├── src                     # Houses the document, google gemini and database init modules
 │   ├── database            # Initialize the database and Prisma client when the project starts
