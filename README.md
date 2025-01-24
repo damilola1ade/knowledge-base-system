@@ -16,7 +16,9 @@ Clone the repository and run:
 $ docker compose up
 ```
 
-## Postman Results
+## API Documentation
+
+I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the endpoints. If you didn't it get please let me know.
 
 - Upload document, extract content and generate summary or key insights
   
@@ -32,15 +34,25 @@ $ docker compose up
 
     The documents metadata and the extracted insights are saved in the database hosted on Supabase.
     
-    <img width="960" alt="Screenshot 2025-01-23 123348" src="https://github.com/user-attachments/assets/950978b7-36db-4f60-99b2-a214623374f4" />
+    <img width="960" alt="Screenshot 2025-01-23 184349" src="https://github.com/user-attachments/assets/2d8da1b9-4a7a-4af9-8f16-8e7ca55f0824" />
 
 - Query Knowledge Base System
   -   We can provide a prompt to query the knowledge base system about an uploaded document. The AI provides intelligent responses based on the initial generated insights.
-    I asked: 'How many years experience does have Dami have?' and it responded with '5 years'.
+    I asked: 'Which technology is Dami strong in?' and it responded with 'Based on the provided resume, Dami is strong in TypeScript, React, React Native, and Express.js.'.
 
 
-  <img width="960" alt="Screenshot 2025-01-23 170359" src="https://github.com/user-attachments/assets/8e6be62e-de23-49d2-b91d-adf2cf5975a7" />
+  <img width="960" alt="Screenshot 2025-01-23 180213" src="https://github.com/user-attachments/assets/c6e90c4d-5d41-4bf6-8710-d66819745ea8" />
 
 
-## Support
+## Architecture
+I used the Monolithic architecture approach because of the simplicity of the project. Using Microservices would be overkill for a project like this. The features are tightly coupled, so splitting them into microservices adds unnecessary overhead. Also it is easier for another developer to set up, understand, and continue development. In contrast, microservices require additional effort to set up independent services, inter-service communication, and orchestration.
+
+While a monolithic architecture works well initially, I might consider moving to microservices in the future if:
+ - The system grows: With many independent modules (e.g., user management, billing, analytics), separating them into services may improve maintainability.
+ - Performance bottlenecks: If certain parts of the system need to scale independently (e.g., high demand for AI processing), microservices allow you to scale specific components without affecting others.
+
+## Limitations
+Due to my tight schedule, I wasn't able to achieve full-text search, filtering and ranking based on relevance.
+
+
 
