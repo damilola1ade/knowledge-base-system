@@ -20,7 +20,7 @@ $ docker compose up
 
 I sent an invite to your email viraj@exampapersplus.co.uk to enable you test the endpoints. If you didn't it get please let me know.
 
-- Upload document, extract content and generate summary or key insights
+- Upload document and generate summary or key insights
   
   - Under Body, change Text to File and select a PDF to upload.
  
