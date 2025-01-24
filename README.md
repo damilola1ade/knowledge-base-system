@@ -7,7 +7,7 @@
 
 ## Knowlegde Base System
 
-Built with NestJS, Prisma, PostgreSQL, Supabase and Google Gemini LLM
+Built with NestJS, Prisma, PostgreSQL, Supabase and Google Gemini LLM with a Monolithic architectural approach.
 
 ## Project setup
 Clone the repository and run:
