@@ -71,7 +71,7 @@ I used the Monolithic architecture approach because of the simplicity of the pro
 
 While a monolithic architecture works well initially, I might consider moving to microservices in the future if:
  - The system grows: With many independent modules (e.g., user management, billing, analytics), separating them into services may improve maintainability.
- - Performance bottlenecks: If certain parts of the system need to scale independently (e.g., high demand for AI processing), microservices allow you to scale specific components without affecting others.
+ - Performance bottlenecks: If certain parts of the system need to scale independently (e.g., high demand for AI processing), microservices will allow me to scale specific components without affecting others.
 
 ## Limitations
 Due to my tight schedule, I wasn't able to achieve full-text search, filtering and ranking based on relevance.
