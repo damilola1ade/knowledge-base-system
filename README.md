@@ -63,16 +63,3 @@ I used PostgreSQL and Prisma as the ORM. The database schema is located in prism
   uploadedAt: Date
 }
 ```
-
-## Architecture
-I used the Monolithic architecture approach because of the simplicity of the project. Using Microservices would be overkill for a project like this. The features are tightly coupled, so splitting them into microservices adds unnecessary overhead. Also it is easier for another developer to set up, understand, and continue development. In contrast, microservices require additional effort to set up independent services, inter-service communication, and orchestration.
-
-While a monolithic architecture works well initially, I might consider moving to microservices in the future if:
- - The system grows: With many independent modules (e.g., user management, billing, analytics), separating them into services may improve maintainability.
- - Performance bottlenecks: If certain parts of the system need to scale independently (e.g., high demand for AI processing), microservices will allow me to scale specific components without affecting others.
-
-## Limitations
-Due to my tight schedule, I wasn't able to achieve full-text search, filtering and ranking based on relevance.
-
-
-
