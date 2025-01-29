@@ -9,10 +9,10 @@ COPY package*.json ./
 RUN npm install
 
 # Database URL hosted on Supabase
-ENV DATABASE_URL="postgresql://postgres.xkacxfwodqhnndaqvqvs:damilola780*@aws-0-eu-west-2.pooler.supabase.com:5432/postgres"
+ENV DATABASE_URL=
 
 # Google Gemini API Key
-ENV GOOGLE_API_KEY=AIzaSyCeknzSEVJ4jdljqG_cIG412TB8P0m-Vrc
+ENV GOOGLE_API_KEY=
 
 # Copy Prisma files and generate client
 COPY prisma ./prisma
